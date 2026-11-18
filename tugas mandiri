@@ -1,0 +1,22 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const keHurufBesarAman = (teks) => {
+  // Cek apakah input benar-benar bertipe string
+  if (typeof teks !== 'string') {
+    return "Error: Input harus berupa teks!";
+  }
+  return teks.toUpperCase();
+};
+
+console.log(keHurufBesarAman("selamat pagi")); 
+console.log(keHurufBesarAman(12345));
+    </script>
+</body>
+</html>
